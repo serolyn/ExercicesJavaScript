@@ -1,0 +1,12 @@
+let chaine = "10,20,30,40";
+let tableau = chaine.split(",");
+let somme = 0;
+tableau.forEach(function(val) {
+    somme += parseInt(val);});
+let moyenne = somme / tableau.length;
+let countSup = tableau.filter(val => val > moyenne).length;
+console.log("Nombre total d'élements:", tableau.length);
+console.log("Somme:", somme);
+console.log("Moyenne:", moyenne);
+
+console.log("Éléments supérieurs à la moyenne:", countSup);

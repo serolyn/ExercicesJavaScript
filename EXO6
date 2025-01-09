@@ -1,0 +1,9 @@
+let tableau = [12, 5, 7, 25, 8, 3, 17, 14, 22, 6];
+let min = tableau[0];
+let max = tableau[0];
+for (let i= 1;i< tab.length; i++) {
+    if (tableau[i] < min) min = tableau[i];
+    if (tableau[i] > max) max = tableau[i];
+}
+console.log("le minimum est", min);
+console.log("le minimum est", max);

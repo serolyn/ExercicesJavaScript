@@ -1,0 +1,15 @@
+let entitee = {
+    nom: "Serolyn",
+    age: 0,
+    adresse: {
+        rue: "xpluton",
+        ville: "plurato-S",
+        codePostal: "XXC"
+    },
+    hobbies: ["helping", "the", "universe"]
+};
+console.log(entitee);
+personne.hobbies.push("To his End.");
+personne.age = 10000000000;
+delete personne.adresse.codePostal;
+console.log(personne);

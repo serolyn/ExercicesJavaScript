@@ -1,0 +1,8 @@
+let votes = ["vie", "bonheur", "sacrifices", "shift", "xxxxx", "Bananxxe", "Banaxxne"];
+let resultats = votes.reduce((acc, fruit) => {
+    acc[fruit] = (acc[fruit] || 0) + 1;
+    return acc;
+}, {});
+console.log(resultats);
+let gagnant = Object.keys(resultats).reduce((a, b) => (resultats[a] > resultats[b] ? a : b));
+console.log("Fruit gagnant:", gagnant);

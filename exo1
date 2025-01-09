@@ -1,0 +1,4 @@
+let aa = 3;
+let b = 7;
+let somme = aa + b;
+console.log(somme);

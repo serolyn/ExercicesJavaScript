@@ -1,0 +1,10 @@
+let panier = [
+    { nom: "revolteur", prix: 1, quantite: 3 },
+    { nom: "revolver", prix: 2, quantite: 2 }
+];
+let total = panier.reduce((acc, article) => acc + article.prix * article.quantite, 0);
+console.log("prix total", total);
+
+panier.push({ nom: "reves", prix: 1.5, quantite: 4 });
+panier = panier.filter(article => article.nom !== "????>>>");
+console.log(panier);

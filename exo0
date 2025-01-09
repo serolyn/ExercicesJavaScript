@@ -1,0 +1,2 @@
+let ttext = "Hello World from JavaScript !";
+console.log(ttext);
