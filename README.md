@@ -1,1 +1,1 @@
-Les fichiers de jscode ont ete introduits par erreur
+Les fichiers de VScode ont ete introduits par erreur
