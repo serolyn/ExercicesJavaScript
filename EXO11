@@ -1,0 +1,10 @@
+let livre = {
+    titre: "minecraft",
+    auteur: "battle royal",
+    annee: 2089,
+    disponible: true
+};
+console.log(livre);
+livre.disponible = false;
+livre.langue = "PLUTONIEN";
+console.log(livre);

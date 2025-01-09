@@ -1,0 +1,12 @@
+function calcule(nb1, nb2, operation) {
+    if (operation === "+") return nb1 + nb2;
+    if (operation === "-") return nb1 - nb2;
+    if (operation === "*") return nb1 * nb2;
+    if (operation === "/") {
+        if (nb2 === 0) return "Erreur: loi de division non respectee";
+        return nb1 / nb2;
+    }
+    return "Respectez la loi";
+}
+console.log(calcule(10, 5, "+"));
+console.log(calcule(10, 0, "/"));

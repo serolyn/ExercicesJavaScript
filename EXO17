@@ -1,0 +1,7 @@
+fetch("https://official-joke-api.appspot.com/random_joke")
+    .then(response => response.json())
+    .then(data => {
+        console.log("qu'est ce que je raconte", data.setup);
+        console.log("c'est vrai", data.punchline);
+    })
+    .catch(error => console.error("what is happening", error));

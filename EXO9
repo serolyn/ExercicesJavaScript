@@ -1,0 +1,18 @@
+let tab = [10, 3, 5, 8, 2];
+
+for (let i = 0; 
+    i < tab.length; 
+    i++) {
+    
+    for (let j = 0; 
+        j< tab.length - i- 1;
+         j++) {
+        if (tab[j] > tab[j + 1]) {
+            let tep = tab[j];
+            tab[j] = tab[j + 1];
+            tab[j + 1] = tep;
+        }
+    }
+}
+console.log(tab);
+ 

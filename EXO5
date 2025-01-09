@@ -1,0 +1,5 @@
+let phrase = "Bonjour tout le monde !";
+let motremplacer = "monde";
+let motremplacement = "JavaScript";
+let nouvellephrase = phrase.replaceAll(motremplacer, motremplacement);
+console.log(nouvellephrase);
